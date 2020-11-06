@@ -1,4 +1,4 @@
-<?php 
-phpinfo();
+<?php <這裡是單行PHP註解>
+phpinfo();<PHP內建的函數用來讓程式設計師查看系統上所安裝的PHP的相關資訊>
 ?>
 
