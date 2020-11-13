@@ -1,0 +1,12 @@
+<? php
+error_reporting(0);<!--不輸出任何錯誤->
+$ conn = mysqli_connect ( " localhost'' , " root" at) ," mydb"') ;
+如果(mysqli_conneceror($con))<!--傳回連結資料庫的績誤碼・如果沒有錯誤發生則返回8>
+die(“資料庫連線錯誤");
+mysqli_set_charset ($ conn : utf8"); <!--設置字符集-->
+s resuit = mysqli_query ( s conn ,"從用戶選擇カ);
+while ($ row = mysqli_fetch_array ($ result ) ) t
+echo s row [id];
+迴聲“;
+echo $ row [pwd];
+迴聲“<br>";
